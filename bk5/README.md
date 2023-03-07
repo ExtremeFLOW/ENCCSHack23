@@ -14,3 +14,4 @@ Using tcsh
 * Run with `./bk5. <neko mesh> <#GLL points>` 
   * Suitable meshes can be found under `data`)
   * `#GLL points` is defined as polynomial order + 1
+  * AX auto-tuning strategy can be controlled via the environment variable `NEKO_AUTOTUNE` (`'1D'` or `'KSTEP'`)
